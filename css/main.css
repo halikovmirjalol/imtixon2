@@ -1,0 +1,153 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px ;
+    color: white;  
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 3200px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.li{
+    width: 68px;
+}
+.li:hover{
+    background-color: gray;
+    width: 80px;
+}
+.header{
+    width: 1300px;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+.father{
+    width: 1100px ;
+    height: 30px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-top: 10px;
+}
+li:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.tel{
+    color: white;
+
+}
+.button{
+    color: white;
+    background-color: orange;
+}
+.main{
+    margin-top: 40px ;
+    background-image:url(../img/bacgroundimg.svg);
+    color: orange;
+    height: 600px;
+    padding-top: 350px;
+}
+.hero{
+    box-sizing: 100px;
+    font-size: 50px;
+
+}
+.hero-a{
+    margin-left: 170px;
+}
+.hero-words{
+    font-size: 20px;
+}
+.box{
+    border: 1px solid;
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+    color: black;
+    background-color: aliceblue;
+    margin-top: 250px;
+    border-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.hero2{
+    margin-top: 130px;
+    margin-left: 0px;
+    width: 1300px;
+    text-align: center;
+    color: black;
+}
+.hero2-words{
+    margin-top: 200px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    
+}
+.hero3{
+    background-image: url(../img/bacgroundimg2.svg);
+    height: 250px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.hero-child{
+    color: orange;
+}
+.white{
+    color: white;
+}
+.hero4{
+    color: black;
+    text-align: center;
+}
+.hero4-words{
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero4-child{
+    color: black;
+    padding-bottom: 0px;
+}
+.hero4-li{
+    color: black;
+}
+.hero5{
+    text-align: center;
+    background-image: url(../img/bacgroundimg3.svg);
+    height: 800px;
+}
+.hero5-words{
+    padding: 50px;
+    font-size: 50px;
+    padding-bottom: 70px;
+    color: white;
+}
+.img{
+    border-radius: 120px;
+}
+.hero5-child{
+    border: 1px solid;
+    background-color: aliceblue;
+    color: black;
+    width: 290px;
+    height: 400px;
+    padding: 30px;
+}
+.footer{
+    background-color: #E5E5E5;
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+    font-size: 20px;
+    padding-bottom: 120px;
+}
+
